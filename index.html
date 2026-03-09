@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="UTF-8">
+<title>OK Rooster Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>OK Rooster Planner</h1>
+
+<div class="controls">
+
+<select id="blockSelect"></select>
+
+<select id="weekSelect">
+<option value="1">Week 1</option>
+<option value="2">Week 2</option>
+</select>
+
+<button onclick="generateRoster()">Genereer rooster</button>
+<button onclick="savePlanner()">Opslaan</button>
+<button onclick="resetPlanner()">Reset</button>
+<button onclick="exportCSV()">Export Excel</button>
+
+</div>
+
+<div class="tabs">
+
+<button onclick="setTab('week')">Week</button>
+<button onclick="setTab('rotation')">Roulatie</button>
+<button onclick="setTab('employees')">Medewerkers</button>
+<button onclick="setTab('skills')">Competenties</button>
+<button onclick="setTab('vacation')">Vakanties</button>
+<button onclick="setTab('dashboard')">Dashboard</button>
+<button onclick="setTab('notes')">Medewerkers info</button>
+<button onclick="setTab('help')">Instructies</button>
+
+</div>
+
+<div id="app"></div>
+
+</div>
+
+<script src="planner.js"></script>
+
+</body>
+</html>
