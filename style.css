@@ -1,0 +1,47 @@
+body{
+font-family:Arial;
+background:#f1f5f9;
+margin:0;
+}
+
+.container{
+max-width:1400px;
+margin:auto;
+padding:20px;
+}
+
+.controls{
+margin-bottom:20px;
+}
+
+button{
+padding:8px 14px;
+border-radius:6px;
+border:1px solid #ccc;
+background:white;
+cursor:pointer;
+}
+
+.tabs button{
+margin-right:5px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+th,td{
+border-bottom:1px solid #ddd;
+padding:8px;
+}
+
+th{
+background:#f8fafc;
+}
+
+.red{
+color:red;
+font-weight:bold;
+}
